@@ -7,8 +7,12 @@ header{
   body,html{
     margin:0;
     padding:0;
+<<<<<<< Updated upstream
     background-color: #F2F5F7;
     
+=======
+    color: #F2F5F7;
+>>>>>>> Stashed changes
   }
   #tituloc{
     color: white;
