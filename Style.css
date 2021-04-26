@@ -46,11 +46,11 @@ body{
 #fieldset01{
   background-color: white;
   max-width: 700px;
-  border-color: #E4E5E9;
+  border: 1px solid #E4E5E9;
   }
 #fieldset02{
   background-color:#FEF6D2 ;
-  border-color:  #FBDF6B;
+  border: 1px solid #FBDF6B;
 }
   div{
    padding: 2px; 
