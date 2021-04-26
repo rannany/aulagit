@@ -8,8 +8,6 @@ header{
   position: fixed;
   width: 260px;
   }
-
-    
   body,html{
     margin:0;
     padding:0;
@@ -37,20 +35,19 @@ div{
 fieldset{
     border-radius: 6px;
   }
-  p{
-    margin-left: 270px;
-  }
+  
 body{
     background-color:  #F2F5F7;
 }
-fieldset01{
+#fieldset01{
   background-color: white;
+  max-width: 1100px;
   }
-fieldset02{
+#fieldset02{
   background-color:#FEF6D2 ;
 }
   div{
-    margin-left: 261px;
+    
    padding: 2px; 
   }
   #tabela01{
@@ -62,7 +59,6 @@ fieldset02{
   }
   #pagfull{
     display: flex;
-    justify-content: space-between;
   }
   fieldset{
     border-radius: 4px;
