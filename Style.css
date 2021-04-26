@@ -2,7 +2,7 @@ header{
     background-color: #10529E;
     height: 100%;
     position: fixed;
-    width: 150px;
+    width: 250px;
   }
   body,html{
     margin:0;
@@ -12,7 +12,7 @@ header{
     color: white;
   }
   p{
-    margin-left: 151px;
+    margin-left: 270px;
   }
   div{
   
