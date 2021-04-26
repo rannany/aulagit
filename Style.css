@@ -43,10 +43,15 @@ body{
 #fieldset01{
   background-color: white;
   max-width: 700px;
+<<<<<<< HEAD
   
+=======
+  border-color: #E4E5E9;
+>>>>>>> eb63f28a0374d4673ccc925804a5823ee7b422d6
   }
 #fieldset02{
   background-color:#FEF6D2 ;
+  border-color:  #FBDF6B;
 }
   div{
    padding: 2px; 
@@ -78,6 +83,4 @@ body{
     margin-left: 30px;
     max-width: 200px;
   }
-  .{
-    color: #10529E;
-  }
+  
