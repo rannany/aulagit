@@ -12,7 +12,10 @@ header{
     margin:0;
     padding:0;
     background-color: #F2F5F7;
-    font-family: sans-serif;
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5;
   }
 #tituloc{
   color: white;
