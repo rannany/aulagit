@@ -4,10 +4,12 @@ header{
   position: fixed;
   width: 260px;
   }
-body,html{
-  margin:0;
-  padding:0;
+
     
+  body,html{
+    margin:0;
+    padding:0;
+    background-color: #F2F5F7;
   }
 #tituloc{
   color: white;
@@ -39,4 +41,22 @@ fieldset01{
   }
 fieldset02{
   background-color:#FEF6D2 ;
+}
+  div{
+    margin-left: 261px;
+   padding: 2px; 
+  }
+  #tabela01{
+    background-color: #FFFFFF;
+  }
+  #tabela02{
+    display: flex;
+    background-color: #FEF6D2;
+  }
+  #pagfull{
+    display: flex;
+    justify-content: space-between;
+  }
+  fieldset{
+    border-radius: 4px;
   }
