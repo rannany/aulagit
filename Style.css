@@ -66,3 +66,6 @@ body{
   .atualizações{
     margin-top: 3px;
   }
+  button{
+    width: 100px;
+  }
