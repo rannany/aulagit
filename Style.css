@@ -46,12 +46,11 @@ body{
 #fieldset01{
   background-color: white;
   max-width: 700px;
-  border: 1px solid rgb(216, 215, 215);
-  margin: 0px;
-}
+  border: 1px solid #E4E5E9;
+  }
 #fieldset02{
   background-color:#FEF6D2 ;
-  border: 1px solid #ffe677;
+  border: 1px solid #FBDF6B;
 }
   div{
    padding: 2px; 
@@ -89,4 +88,3 @@ body{
 .titulos_das_tabelas{
   color: #10529E;
 }
-@media (min-wid)
