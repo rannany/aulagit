@@ -2,19 +2,29 @@ header{
     background-color: #10529E;
     height: 100%;
     position: fixed;
-    width: 150px;
+    width: 260px;
   }
   body,html{
     margin:0;
     padding:0;
+    
   }
-  h1{
+  #tituloc{
     color: white;
   }
-  p{
-    margin-left: 151px;
+  #titulop{
+    margin-left: 261px;
   }
   div{
-  
+    margin-left: 261px;
    padding: 2px; 
+  }
+  #tabela01{
+    
+  }
+  #tabela02{
+    display: flex;
+  }
+  #pagfull{
+    display: flex;
   }
