@@ -12,7 +12,10 @@ header{
     margin:0;
     padding:0;
     background-color: #F2F5F7;
-    font-family: sans-serif;
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5;
   }
 #tituloc{
   color: white;
@@ -43,11 +46,7 @@ body{
 #fieldset01{
   background-color: white;
   max-width: 700px;
-<<<<<<< HEAD
-  
-=======
   border-color: #E4E5E9;
->>>>>>> eb63f28a0374d4673ccc925804a5823ee7b422d6
   }
 #fieldset02{
   background-color:#FEF6D2 ;
@@ -58,7 +57,6 @@ body{
   }
   #tabela01{
     background-color: #FFFFFF;
-    border;
     box-shadow: #10529E;
 
   }
