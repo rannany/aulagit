@@ -4,8 +4,6 @@ header{
   position: fixed;
   width: 260px;
   }
-
-    
   body,html{
     margin:0;
     padding:0;
@@ -36,10 +34,10 @@ fieldset{
 body{
     background-color: #F2F5F7;
 }
-fieldset01{
+#fieldset01{
   background-color: white;
   }
-fieldset02{
+#fieldset02{
   background-color:#FEF6D2 ;
 }
   div{
