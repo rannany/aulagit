@@ -12,6 +12,7 @@ header{
     margin:0;
     padding:0;
     background-color: #F2F5F7;
+    font-family: sans-serif;
   }
 #tituloc{
   color: white;
@@ -42,16 +43,19 @@ body{
 #fieldset01{
   background-color: white;
   max-width: 700px;
+  
   }
 #fieldset02{
   background-color:#FEF6D2 ;
 }
   div{
-    
    padding: 2px; 
   }
   #tabela01{
     background-color: #FFFFFF;
+    border;
+    box-shadow: #10529E;
+
   }
   #tabela02{
     display: flex;
@@ -68,4 +72,12 @@ body{
   }
   button{
     width: 100px;
+  }
+  img{
+    margin-top: 20px;
+    margin-left: 30px;
+    max-width: 200px;
+  }
+  .{
+    color: #10529E;
   }
