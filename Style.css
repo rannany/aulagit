@@ -46,11 +46,12 @@ body{
 #fieldset01{
   background-color: white;
   max-width: 700px;
-  border-color: #E4E5E9;
-  }
+  border: 1px solid rgb(216, 215, 215);
+  margin: 0px;
+}
 #fieldset02{
   background-color:#FEF6D2 ;
-  border-color:  #FBDF6B;
+  border: 1px solid #ffe677;
 }
   div{
    padding: 2px; 
@@ -58,11 +59,13 @@ body{
   #tabela01{
     background-color: #FFFFFF;
     box-shadow: #10529E;
+    
 
   }
   #tabela02{
     display: flex;
     background-color: #FEF6D2;
+    
   }
   #pagfull{
     display: flex;
@@ -72,6 +75,8 @@ body{
   }
   .atualizações{
     margin-top: 3px;
+    border: 1px solid rgb(216, 215, 215);
+    ;
   }
   button{
     width: 100px;
@@ -84,4 +89,4 @@ body{
 .titulos_das_tabelas{
   color: #10529E;
 }
-  
+@media (min-wid)
