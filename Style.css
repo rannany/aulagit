@@ -3,18 +3,67 @@ header{
     height: 100%;
     position: fixed;
     width: 250px;
+  background-color: #10529E;
+  height: 100%;
+  position: fixed;
+  width: 260px;
   }
+
+    
   body,html{
     margin:0;
     padding:0;
+    background-color: #F2F5F7;
   }
-  h1{
-    color: white;
+#tituloc{
+  color: white;
+}
+#titulop{
+  margin-left: 261px;
+}
+div{
+  padding: 2px; 
+}
+#tabela01{
+  margin-left: 261px;
+  border-radius: 4px;
+}
+#tabela02{
+  border-radius: 4px;
+}
+#pagfull{
+  display: flex;
+}
+fieldset{
+    border-radius: 6px;
   }
   p{
     margin-left: 270px;
   }
+body{
+    background-color:  #F2F5F7;
+}
+fieldset01{
+  background-color: white;
+  }
+fieldset02{
+  background-color:#FEF6D2 ;
+}
   div{
-  
+    margin-left: 261px;
    padding: 2px; 
+  }
+  #tabela01{
+    background-color: #FFFFFF;
+  }
+  #tabela02{
+    display: flex;
+    background-color: #FEF6D2;
+  }
+  #pagfull{
+    display: flex;
+    justify-content: space-between;
+  }
+  fieldset{
+    border-radius: 4px;
   }
