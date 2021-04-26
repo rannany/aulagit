@@ -3,10 +3,9 @@ header{
     height: 100%;
     position: fixed;
     width: 250px;
-  background-color: #10529E;
-  height: 100%;
-  position: fixed;
-  width: 260px;
+    width: 260px;
+    text-align:start;
+    line-height: 0px;
   }
   body,html{
     margin:0;
@@ -15,16 +14,17 @@ header{
     font-family:'Nunito Sans', sans-serif;
     font-size: 1rem;
     font-weight: 100;
-    line-height: 1.5;
+    line-height: 1,5;
   }
 #tituloc{
   color: white;
 }
 #titulop{
   margin-left: 261px;
+  font-size: 23px;
 }
 div{
-  padding: 2px; 
+  padding: 2px;
 }
 #tabela01{
   margin-left: 261px;
@@ -58,13 +58,10 @@ body{
   #tabela01{
     background-color: #FFFFFF;
     box-shadow: #10529E;
-    
-
   }
   #tabela02{
     display: flex;
     background-color: #FEF6D2;
-    
   }
   #pagfull{
     display: flex;
@@ -88,3 +85,9 @@ body{
 .titulos_das_tabelas{
   color: #10529E;
 }
+  .icones-do-menu img{
+    max-width: 24px
+  }
+  .titulo-icones{
+    color: #FFF;
+  }
