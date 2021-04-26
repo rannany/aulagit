@@ -36,14 +36,14 @@ fieldset{
 body{
     background-color: #F2F5F7;
 }
-fieldset01{
+#fieldset01{
   background-color: white;
   }
-fieldset02{
+#fieldset02{
   background-color:#FEF6D2 ;
 }
   div{
-    margin-left: 261px;
+    
    padding: 2px; 
   }
   #tabela01{
