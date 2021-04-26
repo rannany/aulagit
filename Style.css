@@ -4,8 +4,6 @@ header{
   position: fixed;
   width: 260px;
   }
-
-    
   body,html{
     margin:0;
     padding:0;
@@ -55,7 +53,6 @@ body{
   }
   #pagfull{
     display: flex;
-    justify-content: space-between;
   }
   fieldset{
     border-radius: 4px;
