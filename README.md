@@ -1,9 +1,3 @@
-aula git werwe
+aula git 
 
 aula de git
-adsfasasdfasdfa
-asdf
-asdf
-asdfa
-sdfasd
-f
