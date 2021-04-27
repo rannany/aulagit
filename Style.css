@@ -30,9 +30,6 @@ body{
 /* #titulop{
   margin-left: 270px;
 } */
-div{
-  padding: 2px;
-}
 #pagfull{
   margin-left: 265px;
   display: flex;
@@ -61,25 +58,10 @@ fieldset{
   background-color:#FEF6D2 ;
   border: 1px solid #FBDF6B;
   border-radius: 8px;
-  justify-content: spac-around
 }
   div{
    padding: 2px; 
   }
-
-
-  .tabela{
-    background-color: #FFFFFF;
-    margin-bottom: 70px;
-    width: 100%;
-  }
-  .tabela{
-    /* display: flex; */
-    background-color: #FEF6D2;
-    margin-bottom: 70px;
-    
-  }
-  
   fieldset{
     border-radius: 8px;
   }
