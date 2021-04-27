@@ -43,6 +43,7 @@ div{
 .tabela{
   border-radius: 8px;
   flex-grow: 1;
+  justify-content: space-between;
 }
 
 fieldset{
@@ -59,6 +60,7 @@ fieldset{
   background-color:#FEF6D2 ;
   border: 1px solid #FBDF6B;
   border-radius: 8px;
+  justify-content: spac-around
 }
   div{
    padding: 2px; 
@@ -121,3 +123,19 @@ hr{
     flex-wrap: wrap;
   }
 } 
+@media (max-width:400px){
+  #pagfull{
+    flex-wrap: wrap;
+    
+  }
+  header{
+    display: none;
+  }
+
+  #pagfull{
+    margin-left: 0px;
+  }
+  #titulop{
+    margin-left: 0px;
+  }
+}
