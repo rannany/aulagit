@@ -66,6 +66,7 @@ fieldset{
   .atualizações{
     margin-top: 3px;
     border: 1px solid rgb(216, 215, 215);
+    
   }
   img{
     margin-top: 20px;
@@ -98,6 +99,22 @@ fieldset{
 hr{
   margin-left: 20px;
   margin-right: 20px;
+}
+.botao{
+  overflow:hidden;
+  background-color:#10529E;
+}
+.botao a{
+  float:none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 40px;
+  text-decoration:none;
+}
+.botao a:hover{
+  background-color: white;
+  color: black;
 }
 
  @media (max-width:1000px){
