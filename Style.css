@@ -118,29 +118,45 @@ hr{
   margin-left: 20px;
   margin-right: 20px;
 }
- @media (max-width:900px){
+
+ @media (max-width:1000px){
   #pagfull{
     flex-wrap: wrap;
   }
+  .login{
+    display: none;
+  }
 } 
-@media (max-width:400px){
+@media (max-width:430px){
   #pagfull{
     flex-wrap: wrap;
     
   }
   header{
+    height: 100px;
+    position: fixed;
+    width: 100%;
+  }
+  .icones-do-menu img{
     display: none;
   }
-
+  .titulo-icones{
+    display: none;
+  }
   #pagfull{
     margin-left: 0px;
   }
   #titulop{
     margin-left: 0px;
-    font-size: 16px;
+    margin-top: 110px;
   }
-  .login{
+  header img {
+    margin-left: 90px;
+  }
+  hr{
     display: none;
   }
-  
-}
+  .login img{
+    margin-top: 110px;
+  }
+  }
