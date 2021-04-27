@@ -17,7 +17,7 @@ header{
   }
 
 #titulop{
-  margin-left: 265px;
+  margin-left: 270px;
   font-size: 26px;
 }
 body{
@@ -47,8 +47,6 @@ body{
 fieldset{
     border-radius: 8px;
   }
-  
-
 #fieldset01{
   background-color: white;
   border: 1px solid #E4E5E9;
@@ -111,8 +109,9 @@ hr{
   display: block;
   color: white;
   text-align: center;
-  padding: 6px 0px;
+  padding: 10px 50px;
   text-decoration:none;
+  border-radius: 6;
 }
 .botao a:hover{
   background-color: white;
@@ -152,11 +151,10 @@ hr{
     margin-left: 0px;
   }
   #titulop{
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 110px;
     font-size: 16px;
   }
-  
   hr{
     display: none;
   }
