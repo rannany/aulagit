@@ -2,7 +2,6 @@ header{
     background-color: #10529E;
     height: 100%;
     position: fixed;
-    width: 250px;
     width: 260px;
     text-align:start;
     line-height: 0px;
@@ -16,36 +15,43 @@ header{
     font-weight: 400;
     line-height: 1,5;
   }
+
+#titulop{
+  margin-left: 265px;
+}
+body{
+  background-color:  #F2F5F7;
+}
+
 #tituloc{
   color: white;
 }
-#titulop{
+/* #titulop{
   margin-left: 270px;
-}
+} */
 div{
   padding: 2px;
 }
-#tabela01{
-  margin-left: 270px;
+#pagfull{
+  margin-left: 265px;
+  display: flex;
+}
+.tabela{
+ /* margin-left: 270px;*/
   border-radius: 4px;
 }
-#tabela02{
+.tabela{
   border-radius: 8px;
+  flex-grow: 1;
 }
-#pagfull{
-  display: flex;
 
-}
 fieldset{
     border-radius: 8px;
   }
   
-body{
-    background-color:  #F2F5F7;
-}
+
 #fieldset01{
   background-color: white;
-  max-width: 700px;
   border: 1px solid #E4E5E9;
   border-radius: 8px;
   }
@@ -57,18 +63,20 @@ body{
   div{
    padding: 2px; 
   }
-  #tabela01{
+
+
+  .tabela{
     background-color: #FFFFFF;
     margin-bottom: 70px;
+    width: 100%;
   }
-  #tabela02{
-    display: flex;
+  .tabela{
+    /* display: flex; */
     background-color: #FEF6D2;
     margin-bottom: 70px;
+    
   }
-  #pagfull{
-    display: flex;
-  }
+  
   fieldset{
     border-radius: 8px;
   }
@@ -99,7 +107,7 @@ body{
   margin-right: 30px;
 }
 .login img{
-  max-width: 24px;
+  max-width: 32px;
 }
 .titulo-tabela02{
   text-transform:uppercase
@@ -108,3 +116,8 @@ hr{
   margin-left: 20px;
   margin-right: 20px;
 }
+ @media (max-width:900px){
+  #pagfull{
+    flex-wrap: wrap;
+  }
+} 
