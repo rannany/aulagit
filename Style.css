@@ -109,8 +109,9 @@ hr{
   display: block;
   color: white;
   text-align: center;
-  padding: 7px 40px;
+  padding: 10px 50px;
   text-decoration:none;
+  border-radius: 6;
 }
 .botao a:hover{
   background-color: white;
