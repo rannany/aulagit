@@ -21,13 +21,13 @@ header{
   color: white;
 }
 #titulop{
-  margin-left: 261px;
+  margin-left: 270px;
 }
 div{
   padding: 2px; 
 }
 #tabela01{
-  margin-left: 261px;
+  margin-left: 270px;
   border-radius: 4px;
 }
 #tabela02{
@@ -35,6 +35,7 @@ div{
 }
 #pagfull{
   display: flex;
+
 }
 fieldset{
     border-radius: 6px;
