@@ -137,5 +137,10 @@ hr{
   }
   #titulop{
     margin-left: 0px;
+    font-size: 16px;
   }
+  .login{
+    display: none;
+  }
+  
 }
