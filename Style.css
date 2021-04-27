@@ -129,13 +129,30 @@ hr{
     
   }
   header{
+    height: 100px;
+    position: fixed;
+    width: 100%;
+  }
+  .icones-do-menu img{
     display: none;
   }
-
+  .titulo-icones{
+    display: none;
+  }
   #pagfull{
     margin-left: 0px;
   }
   #titulop{
     margin-left: 0px;
+    margin-top: 110px;
   }
-}
+  header img {
+    margin-left: 90px;
+  }
+  hr{
+    display: none;
+  }
+  .login img{
+    margin-top: 110px;
+  }
+  }
