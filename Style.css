@@ -41,7 +41,6 @@ body{
 .tabela{
   border-radius: 8px;
   flex-grow: 1;
-  justify-content: space-between;
 }
 
 fieldset{
@@ -53,6 +52,7 @@ fieldset{
   border-radius: 8px;
   }
 #fieldset02{
+  margin-left: 10px;
   background-color:#FEF6D2 ;
   border: 1px solid #FBDF6B;
   border-radius: 8px;
@@ -101,7 +101,7 @@ hr{
   margin-right: 20px;
 }
 .botao{
-  overflow:hidden;
+  overflow: hidden;
   background-color:#10529E;
 }
 .botao a{
@@ -109,7 +109,7 @@ hr{
   display: block;
   color: white;
   text-align: center;
-  padding: 10px 50px;
+  padding: 10px 0px;
   text-decoration:none;
   border-radius: 6;
 }
