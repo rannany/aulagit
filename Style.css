@@ -57,9 +57,7 @@ fieldset{
   border: 1px solid #FBDF6B;
   border-radius: 8px;
 }
-  div{
-   padding: 2px; 
-  }
+  
   fieldset{
     border-radius: 8px;
   }
@@ -115,10 +113,11 @@ hr{
   padding-top:0px ;
   padding-bottom: 20px;
   margin-left: 20px;
+  margin-top: 5px;
   
 }
 .botao a:hover{
-  background-color: white;
+  background-color: #F2F5F7;
   color:#10529E;
   border-radius: 6px 0px 0px 6px ;
   margin-left: 30px;
