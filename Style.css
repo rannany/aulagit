@@ -112,8 +112,10 @@ hr{
   border-radius: 6;
   padding-top:0px ;
   padding-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 50px;
   margin-top: 5px;
+  
+  
   
 }
 .botao a:hover{
@@ -122,9 +124,15 @@ hr{
   border-radius: 6px 0px 0px 6px ;
   margin-left: 30px;
   margin-right: 0px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 .sidebar{
   display: none;
+}
+
+i{
+  font-size: 24px ;
 }
 
  @media (max-width:1000px){
@@ -139,6 +147,9 @@ hr{
   }
   .sidebar{
     display: none;
+  }
+  hr{
+    border-color: rgb(5, 30, 141);
   }
   
 } 
