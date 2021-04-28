@@ -71,6 +71,9 @@ fieldset{
     margin-left: 30px;
     max-width: 200px;
   }
+  header img{
+    margin-bottom: 20px;
+  }
 .titulos_das_tabelas{
   color: #10529E;
 }
@@ -97,6 +100,8 @@ fieldset{
 hr{
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .botao{
   overflow: hidden;
@@ -107,7 +112,7 @@ hr{
   float:none;
   display: block;
   color: white;
-  padding: 10px 0px;
+  padding: 15px 0px;
   text-decoration:none;
   border-radius: 6;
   margin-left: 30px;
@@ -131,7 +136,7 @@ hr{
 }
 
 i{
-  font-size: 24px ;
+  font-size: 20px ;
 }
 
  @media (max-width:1000px){
