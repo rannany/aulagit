@@ -103,17 +103,18 @@ hr{
 .botao{
   overflow: hidden;
   background-color:#10529E;
+  margin-left: 0px;
 }
 .botao a{
   float:none;
   display: block;
   color: white;
-  text-align: center;
   padding: 10px 0px;
   text-decoration:none;
   border-radius: 6;
   padding-top:0px ;
   padding-bottom: 20px;
+  margin-left: 20px;
   
 }
 .botao a:hover{
