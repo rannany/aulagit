@@ -141,16 +141,15 @@ hr{
 @media (max-width:760px){
   #pagfull{
     flex-wrap: wrap;
+    margin-left: 5px;
     
   }
   header{
-
+    height: 100px;
     position: fixed;
-    width: 75px;
+    width: 100%;
   }
-  header img{
-    display: none;
-  }
+
   .icones-do-menu img{
     display:flex;
   }
@@ -160,12 +159,10 @@ hr{
   .botao{
     display: none;
   }
-  #pagfull{
-    margin-left: 80px;
-  }
+  
   #titulop{
-    margin-left: 80px;
-    margin-top: 5px;
+    margin-left: 5px;
+    margin-top: 110px;
     font-size: 16px;
   }
   hr{
