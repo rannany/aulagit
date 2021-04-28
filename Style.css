@@ -118,7 +118,11 @@ hr{
   
 }
 .botao a:hover{
+<<<<<<< HEAD
   background-color:#F2F5F7;
+=======
+  background-color: white;
+>>>>>>> parent of 228a109 (aliamento botao)
   color:#10529E;
   border-radius: 6px 0px 0px 6px ;
   margin-left: 30px;
