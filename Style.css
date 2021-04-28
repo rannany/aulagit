@@ -135,8 +135,9 @@ hr{
   display: none;
 }
 i{
-  font-size: 20px ;
+  font-size: 19px ;
 }
+
 
  @media (max-width:1000px){
   #pagfull{
