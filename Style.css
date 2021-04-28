@@ -119,6 +119,9 @@ hr{
   border-radius: 6px 0px 0px 6px ;
   margin-left: 30px;
 }
+.sidebar{
+  display: none;
+}
 
  @media (max-width:1000px){
   #pagfull{
@@ -130,6 +133,10 @@ hr{
   #titulop{
     font-size: 26px;
   }
+  .sidebar{
+    display: none;
+  }
+  
 } 
 @media (max-width:760px){
   #pagfull{
