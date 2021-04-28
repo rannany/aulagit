@@ -57,8 +57,9 @@ fieldset{
   border: 1px solid #FBDF6B;
   border-radius: 8px;
 }
-   
-  
+  div{
+   padding: 2px; 
+  }
   fieldset{
     border-radius: 8px;
   }
@@ -107,21 +108,17 @@ hr{
 .botao a{
   float:none;
   display: block;
-  color:white;
-  padding: 10px 0px ;
+  color: white;
+  padding: 10px 0px;
   text-decoration:none;
   border-radius: 6;
   padding-top:0px ;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  
+  padding-bottom: 20px;
   margin-left: 20px;
-  margin-bottom: 0px;
-  margin-top: 5px;
   
 }
 .botao a:hover{
-  background-color: #F2F5F7;
+  background-color:#F2F5F7;
   color:#10529E;
   border-radius: 6px 0px 0px 6px ;
   margin-left: 30px;
