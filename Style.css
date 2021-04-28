@@ -97,6 +97,7 @@ fieldset{
 hr{
   margin-left: 20px;
   margin-right: 20px;
+  margin: 1 auto 1 1;
 }
 .botao{
   overflow: hidden;
