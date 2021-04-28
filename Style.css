@@ -109,12 +109,15 @@ hr{
   display: block;
   color: white;
   text-align: center;
-  padding: 7px 40px;
+  padding: 10px 50px;
   text-decoration:none;
+  border-radius: 6;
 }
 .botao a:hover{
   background-color: white;
-  color: black;
+  color:#10529E;
+  border-radius: 6px 0px 0px 6px ;
+  margin-left: 30px;
 }
 
  @media (max-width:1000px){
@@ -134,22 +137,28 @@ hr{
     
   }
   header{
-    height: 100px;
+
     position: fixed;
-    width: 100%;
+    width: 75px;
+  }
+  header img{
+    display: none;
   }
   .icones-do-menu img{
-    display: none;
+    display:flex;
   }
   .titulo-icones{
     display: none;
   }
+  .botao{
+    display: none;
+  }
   #pagfull{
-    margin-left: 0px;
+    margin-left: 80px;
   }
   #titulop{
-    margin-left: 10px;
-    margin-top: 110px;
+    margin-left: 80px;
+    margin-top: 5px;
     font-size: 16px;
   }
   hr{
