@@ -114,14 +114,13 @@ hr{
   float:none;
   display: block;
   color: white;
-  padding: 17px 0px;
+  padding: 14px 0px;
   text-decoration:none;
   border-radius: 6;
   margin-left: 30px;
   margin-right: 0px;
-  padding-left: 20px;
-  padding-top: 10px;
-  
+  padding-left: 30px;
+  padding-top: 15px;
   
 }
 .botao a:hover{
@@ -130,8 +129,8 @@ hr{
   border-radius: 6px 0px 0px 6px ;
   margin-left: 30px;
   margin-right: 0px;
-  padding-left: 20px;
-  padding-top: 10px;
+  padding-left: 30px;
+  padding-top: 15px;
 }
 .sidebar{
   display: none;
