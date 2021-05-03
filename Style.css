@@ -17,8 +17,9 @@ header{
   }
 
 #titulop{
-  margin-left: 270px;
-  font-size: 26px;
+  margin-left: 280px;
+  font-size: 22px;
+  margin-top: 25px;
 }
 body{
   background-color:  #F2F5F7;
@@ -35,36 +36,25 @@ body{
   display: flex;
 }
 .tabela{
- /* margin-left: 270px;*/
-  border-radius: 4px;
-}
-.tabela{
   border-radius: 8px;
   flex-grow: 1;
 }
-
 fieldset{
-    border-radius: 8px;
-  }
+  border-radius: 8px;
+  margin: 15px;
+}
 #fieldset01{
   background-color: white;
   border: 1px solid #E4E5E9;
-  border-radius: 8px;
   }
 #fieldset02{
   margin-left: 10px;
   background-color:#FEF6D2 ;
   border: 1px solid #FBDF6B;
-  border-radius: 8px;
 }
-  
-  fieldset{
-    border-radius: 8px;
-  }
   .atualizações{
     margin-top: 3px;
     border: 1px solid rgb(216, 215, 215);
-    
   }
   img{
     margin-top: 20px;
@@ -72,10 +62,11 @@ fieldset{
     max-width: 200px;
   }
   header img{
-    margin-bottom: 20px;
+    margin-bottom: 17px;
   }
 .titulos_das_tabelas{
   color: #10529E;
+  font-size: 16px;
 }
   .icones-do-menu img{
     max-width: 24px;
@@ -85,23 +76,32 @@ fieldset{
   }
   .login{
     text-align:end;
+    margin-top: 0px;
   }
 .Titulo-login{
   display: flex;
   justify-content:space-between;
-  margin-right: 30px;
+  margin-right: 40px;
+  max-height: 80px;
 }
-.login img{
-  max-width: 32px;
+.login-img{
+  max-width: 37px;
+  margin-top: 10px;
 }
 .titulo-tabela02{
-  text-transform:uppercase
+  text-transform:uppercase;
+  font-size: 18px;
+}
+#Titulo-tabela-1{
+  font-size:20px;
+  color: black;
+  margin-left: 15px;
 }
 hr{
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
   border-color: rgba(255, 254, 254, 0.185);
   border-style: solid;
 }
@@ -114,15 +114,18 @@ hr{
   float:none;
   display: block;
   color: white;
-  padding: 17px 0px;
   text-decoration:none;
   border-radius: 6;
   margin-left: 30px;
   margin-right: 0px;
-  padding-left: 20px;
-  padding-top: 10px;
-  
-  
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+#inicio{
+  background-color: #FFF;
+  color: #10529E;
+  border-radius: 6px 0px 0px 6px ;
 }
 .botao a:hover{
   background-color: #F2F5F7;
@@ -130,18 +133,16 @@ hr{
   border-radius: 6px 0px 0px 6px ;
   margin-left: 30px;
   margin-right: 0px;
-  padding-left: 20px;
-  padding-top: 10px;
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 .sidebar{
   display: none;
 }
 i{
-  font-size: 19px ;
+  font-size: 20px ;
 }
-
-
-
  @media (max-width:1000px){
   #pagfull{
     flex-wrap: wrap;
@@ -150,18 +151,26 @@ i{
     display: none;
   }
   #titulop{
-    font-size: 26px;
+    font-size: 20px;
+  }
+  #Titulo-tabela-1{
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  .titulos_das_tabelas{
+    font-size: 16px;
   }
   .sidebar{
     display: none;
   }
-  
-  
+  .titulo-tabela02{
+    font-size: 16px;
 } 
 @media (max-width:760px){
   #pagfull{
     flex-wrap: wrap;
     margin-left: 5px;
+    margin-top: 80px;
     
   }
   header{
@@ -181,9 +190,19 @@ i{
   }
   
   #titulop{
-    margin-left: 5px;
+    margin-left: 25px;
     margin-top: 120px;
+    font-size: 20px;
+  }
+  #Titulo-tabela-1{
     font-size: 16px;
+    margin-left: 15px;
+  }
+  .titulo-tabela02{
+    font-size: 14px;
+} 
+  .titulos_das_tabelas{
+    font-size: 14px;
   }
   hr{
     display: none;
@@ -191,4 +210,6 @@ i{
   .login img{
     margin-top: 110px;
   }
+  .dropdown-item{
+
   }
