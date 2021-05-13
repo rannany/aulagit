@@ -98,6 +98,11 @@ fieldset{
   margin-left: 15px;
 }
 hr{
+  border-color:#E4E5E9;
+  border-style: solid;
+  width: 100%;
+}
+#hr-sidebar{
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 25px;
