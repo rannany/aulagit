@@ -2,7 +2,7 @@ header{
     background-color: #10529E;
     height: 100%;
     position: fixed;
-    width: 260px;
+    width: 250px;
     text-align:start;
     line-height: 0px;
   }
@@ -98,6 +98,11 @@ fieldset{
   margin-left: 15px;
 }
 hr{
+  border-color:#E4E5E9;
+  border-style: solid;
+  width: 100%;
+}
+#hr-sidebar{
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 25px;
@@ -210,5 +215,6 @@ i{
   .login img{
     margin-top: 110px;
   }
-}
-}
+  .dropdown-item{
+
+  }
